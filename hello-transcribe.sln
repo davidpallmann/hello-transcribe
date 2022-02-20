@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello-transcribe", "hello-transcribe.csproj", "{8BB355CE-A646-49C6-8A48-0E7236FAF27E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB355CE-A646-49C6-8A48-0E7236FAF27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB355CE-A646-49C6-8A48-0E7236FAF27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB355CE-A646-49C6-8A48-0E7236FAF27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB355CE-A646-49C6-8A48-0E7236FAF27E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8888BF16-45E9-450D-A8AB-6C43CD297A68}
+	EndGlobalSection
+EndGlobal

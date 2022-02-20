@@ -1,0 +1,10 @@
+Winston Churchill - Be Ye Men of Valor speech.ogg
+local name in project: winstonchurchillarmyourselves.mp3
+public domain - Wikimedia Commons - Creative Commons Attribution-Share Alike
+https://commons.wikimedia.org/wiki/File:Winston_Churchill_-_Be_Ye_Men_of_Valour.ogg
+
+Wikimedia Foundation Monthly Metrics Meeting January 9, 2014.ogv
+local name in project: meeting.ogv (not included in repo due to size - download to use)
+public domain - Wikimedia Commons - Creative Commons Attribution-Share Alike 3.0
+https://commons.wikimedia.org/wiki/File:WMF_Monthly_Metrics_Meeting_January_9,_2014.ogv
+
