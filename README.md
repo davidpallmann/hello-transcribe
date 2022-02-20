@@ -1,16 +1,14 @@
-# Hello, Lambda!
+# Hello, Transcribe!
 
-This is the code project for the [Hello, Lambda!](https://davidpallmann.hashnode.dev/hello-lambda) blog post. 
+This is the code project for the [Hello, Transcribe!](https://davidpallmann.hashnode.dev/hello-transcribe) blog post. 
 
-This episode: Lambda Functions. In this [Hello, Cloud](https://davidpallmann.hashnode.dev/hello-cloud) blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
+This episode: Amazon Transcribe and Speech-to-Text. In this Hello, Cloud blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
 
-In this post we'll introduce AWS Lambda functions and write a "Hello, Cloud" in C#. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. If you've never worked with serverless, prepare to have your mind blown.
+In this post we'll introduce Amazon Transcribe and use it in a "Hello, Cloud" .NET program to perform Speech-to-Text. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio 2022 and .NET 6.
 
-## Our Hello, Lambda Project
+## Our Hello, Transcribe Project
 
-We'll use Visual Studio to create a simple "Hello, Lambda" function, deploy it to AWS, and test it. Our Lambda function will take a phone number input parameter (a string of digits) and return all the letter combinations.
-
-With Lambda functions we have two ways of working available: we can upload a zipped deployment package, or we can upload a container. We will do a zipped deployment package here, and cover containers in a future post. At the time of this writing, the latest .NET version supported by AWS Lambda is .NET Core 3.1 for deployment projects and .NET 5 for containers.
+We will first get familiar with Amazon Transcribe in the AWS console, then we'll write a .NET program that transcribes audio and video files. We'll do that by uploading audio/video to S3, starting a batch Transcribe job, waiting for it to finish, and retrieving the transcript output from S3.
 
 See the blog post for the tutorial to create this project and run it on AWS.
 
